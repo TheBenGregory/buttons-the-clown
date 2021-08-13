@@ -1,5 +1,5 @@
-const mainContainer = document.querySelector("#container")
 import { sendRequest } from "./dataAccess.js"
+const mainContainer = document.querySelector("#container")
 
 export const PartyForm = () => {
     let html = `
