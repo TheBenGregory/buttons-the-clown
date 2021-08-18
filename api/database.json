@@ -1,0 +1,15 @@
+{
+    "clown": [],
+    "location": [],
+    "partyrequests": [
+      {
+        "id": 2,
+        "parentName": "Jimothy Jones",
+        "address": "3677 Jaden Squares",
+        "lengthOfParty": 45,
+        "kidName": "Randy",
+        "kidsCount": 7,
+        "partyDate": "2021-08-26 "
+      }
+    ]
+    }

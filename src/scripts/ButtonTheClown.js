@@ -1,5 +1,5 @@
 import { PartyForm } from "./PartyForm.js"
-import { Requests } from "./Requests.js"
+import { Requests } from "./Request.js"
 
 
 
