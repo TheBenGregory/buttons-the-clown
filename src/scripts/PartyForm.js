@@ -1,5 +1,5 @@
-import { sendRequest } from "./dataAccess.js"
 const mainContainer = document.querySelector("#container")
+import { sendRequest } from "./dataAccess.js"
 
 export const PartyForm = () => {
     let html = `
@@ -42,11 +42,11 @@ mainContainer.addEventListener("click", clickEvent => {
         const partyDate = document.querySelector("input[name='partyDate']").value
         const partyAddress = document.querySelector("input[name='partyAddress']").value
         const howLong = document.querySelector("input[name='howLong']").value
-        const userDate = document.querySelector("input[name='kidsCount']").value
-        const userDate = document.querySelector("input[name='kidName']").value
+        const kidsCount = document.querySelector("input[name='kidsCount']").value
+        const kidName = document.querySelector("input[name='kidName']").value
         const parName = document.querySelector("input[name='parName']").value
-
-        // Make an object out of the user input
+        
+    
         const dataToSendToAPI = {
             parentName: parName,
             address: partyAddress,

@@ -13,7 +13,6 @@ export const fetchRequests = () => {
         .then(response => response.json())
         .then(
             (serviceRequests) => {
-                // Store the external state in application state
                 applicationState.requests = serviceRequests
             }
         )
@@ -29,10 +28,10 @@ export const sendRequest = (userServiceRequest) => {
     }
 
     return fetch(`${API}/requests`, fetchOptions)
-.then(response => response.json())
-.then(() => {
-    mainContainer.dispatchEvent(new CustomEvent("stateChanged"))
-})
+        .then(response => response.json())
+        .then(() => {
+            mainContainer.dispatchEvent(new CustomEvent("stateChanged"))
+        })
 
 
 }
