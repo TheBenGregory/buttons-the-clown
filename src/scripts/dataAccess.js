@@ -9,7 +9,7 @@ const applicationState = {
 const API = "http://localhost:8088"
 
 export const fetchRequests = () => {
-    return fetch(`${API}/requests`)
+    return fetch(`${API}/partyrequests`)
         .then(response => response.json())
         .then(
             (serviceRequests) => {
@@ -27,7 +27,7 @@ export const sendRequest = (userServiceRequest) => {
         body: JSON.stringify(userServiceRequest)
     }
 
-    return fetch(`${API}/requests`, fetchOptions)
+    return fetch(`${API}/partyrequests`, fetchOptions)
         .then(response => response.json())
         .then(() => {
             mainContainer.dispatchEvent(new CustomEvent("stateChanged"))

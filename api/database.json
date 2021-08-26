@@ -1,15 +1,24 @@
 {
-    "clown": [],
-    "location": [],
-    "partyrequests": [
-      {
-        "id": 2,
-        "parentName": "Jimothy Jones",
-        "address": "3677 Jaden Squares",
-        "lengthOfParty": 45,
-        "kidName": "Randy",
-        "kidsCount": 7,
-        "partyDate": "2021-08-26 "
-      }
-    ]
+  "clown": [],
+  "location": [],
+  "partyrequests": [
+    {
+      "id": 2,
+      "parentName": "Jimothy Jones",
+      "address": "3677 Jaden Squares",
+      "lengthOfParty": 45,
+      "kidName": "Randy",
+      "kidsCount": 7,
+      "partyDate": "2021-08-26 "
+    },
+    {
+      "parentName": "Sam",
+      "address": "612 Wharf Avenue",
+      "lengthOfParty": "2",
+      "kidName": "Stupid",
+      "kidsCount": "15",
+      "partyDate": "2021-09-03",
+      "id": 3
     }
+  ]
+}
