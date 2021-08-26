@@ -9,15 +9,10 @@ mainContainer.addEventListener("click", click => {
     }
 })
 
-
-
-
-
 export const Requests = () => {
     const requests = getRequests()
     const listItemsArray = (request) => {
     
-       
          return  `<li class="request__delete">${request.parDate}<button
           id="request--${request.id}">
      <div id="delete">Delete</div>
